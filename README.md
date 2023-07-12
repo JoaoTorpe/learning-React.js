@@ -1,1 +1,1 @@
-Trying React.js out
+Trying out React.js
