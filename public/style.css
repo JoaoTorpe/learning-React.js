@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+     padding: 0px; 
+ }
+
+ .notesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80vw;
+    margin: auto;
+ }

@@ -8,7 +8,7 @@ const noteStyle={
     marginTop: "20px",
     marginLeft:"50px",
     padding:"20px",
-height: "150px",
+minHeight: "150px",
 width: "300px",
 backgroundColor:"#e1e2e3",
 borderRadius: "5px" ,
@@ -20,9 +20,9 @@ fontFamily: "'Roboto', sans-serif"
 }
 
 
-function Note(){
+function Note(props){
 
- return <div style={noteStyle} ><h1>Note title</h1> <p>Note content</p> </div>
+ return <div style={noteStyle} ><h1>{props.title}</h1> <p>{props.content}</p> </div>
 
 }
 
